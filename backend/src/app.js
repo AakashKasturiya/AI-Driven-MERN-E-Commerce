@@ -43,10 +43,15 @@ app.use(express.json());
 // Parse URL Encoded Data
 app.use(express.urlencoded({ extended: true }));
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://ai-driven-mern-e-commerce.vercel.app",
+];
+
 // Enable CORS
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: allowedOrigins,
     credentials: true,
   })
 );

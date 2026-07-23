@@ -142,7 +142,7 @@ export const CreateAccount = ({loginToggle, setLoginToggle}) => {
         password: formData.password,
       };
 
-      const response = await axios.post("http://localhost:5000/api/auth/signup", payload);
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/signup`,payload);
 
       console.log(response.data);
       const { user, token } = response.data;

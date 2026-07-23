@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Blue & Black Check Shirt",
+    "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+    "category": "men-shirts",
+    "brand": "Fashion Trends",
+    "sku": "MEN-FAS-BLU-083",
+    "price": 29.99,
+    "discountPrice": 25.39,
+    "stock": 38,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/thumbnail.webp",
+    "tags": ["clothing", "men's shirts"],
+    "rating": 3.64
+  },
+  {
+    "title": "Gigabyte Aorus Men Tshirt",
+    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+    "category": "men-shirts",
+    "brand": "Gigabyte",
+    "sku": "MEN-GIG-GIG-084",
+    "price": 24.99,
+    "discountPrice": 24.76,
+    "stock": 90,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp",
+    "tags": ["clothing", "men's t-shirts"],
+    "rating": 3.18
+  },
+  {
+    "title": "Man Plaid Shirt",
+    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+    "category": "men-shirts",
+    "brand": "Classic Wear",
+    "sku": "MEN-CLA-PLA-085",
+    "price": 34.99,
+    "discountPrice": 28.17,
+    "stock": 82,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp",
+    "tags": ["clothing", "men's shirts"],
+    "rating": 3.46
+  },
+  {
+    "title": "Man Short Sleeve Shirt",
+    "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+    "category": "men-shirts",
+    "brand": "Casual Comfort",
+    "sku": "MEN-CAS-SHO-086",
+    "price": 19.99,
+    "discountPrice": 18.63,
+    "stock": 2,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/thumbnail.webp",
+    "tags": ["clothing", "men's shirts"],
+    "rating": 2.9
+  },
+  {
+    "title": "Men Check Shirt",
+    "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+    "category": "men-shirts",
+    "brand": "Urban Chic",
+    "sku": "MEN-URB-CHE-087",
+    "price": 27.99,
+    "discountPrice": 24.81,
+    "stock": 95,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/thumbnail.webp",
+    "tags": ["clothing", "men's shirts"],
+    "rating": 2.72
+  }
+]

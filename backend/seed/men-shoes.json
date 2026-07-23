@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Nike Air Jordan 1 Red And Black",
+    "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+    "category": "men-shoes",
+    "brand": "Nike",
+    "sku": "MEN-NIK-NIK-088",
+    "price": 149.99,
+    "discountPrice": 143.81,
+    "stock": 7,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/thumbnail.webp",
+    "tags": ["footwear", "athletic shoes"],
+    "rating": 4.77
+  },
+  {
+    "title": "Nike Baseball Cleats",
+    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+    "category": "men-shoes",
+    "brand": "Nike",
+    "sku": "MEN-NIK-NIK-089",
+    "price": 79.99,
+    "discountPrice": 65.56,
+    "stock": 12,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/thumbnail.webp",
+    "tags": ["footwear", "sports cleats"],
+    "rating": 3.88
+  },
+  {
+    "title": "Puma Future Rider Trainers",
+    "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+    "category": "men-shoes",
+    "brand": "Puma",
+    "sku": "MEN-PUM-PUM-090",
+    "price": 89.99,
+    "discountPrice": 86.21,
+    "stock": 90,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/thumbnail.webp",
+    "tags": ["footwear", "casual shoes"],
+    "rating": 4.9
+  },
+  {
+    "title": "Sports Sneakers Off White & Red",
+    "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
+    "category": "men-shoes",
+    "brand": "Off White",
+    "sku": "MEN-OFF-SPO-091",
+    "price": 119.99,
+    "discountPrice": 114.03,
+    "stock": 17,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/thumbnail.webp",
+    "tags": ["footwear", "athletic shoes"],
+    "rating": 4.77
+  },
+  {
+    "title": "Sports Sneakers Off White Red",
+    "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
+    "category": "men-shoes",
+    "brand": "Off White",
+    "sku": "MEN-OFF-SPO-092",
+    "price": 109.99,
+    "discountPrice": 109.95,
+    "stock": 62,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/thumbnail.webp",
+    "tags": ["footwear", "casual shoes"],
+    "rating": 4.69
+  }
+]

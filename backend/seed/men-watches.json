@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Brown Leather Belt Watch",
+    "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+    "category": "men-watches",
+    "brand": "Fashion Timepieces",
+    "sku": "MEN-FAS-BRO-093",
+    "price": 89.99,
+    "discountPrice": 84.60,
+    "stock": 32,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
+    "tags": ["watches", "leather watches"],
+    "rating": 4.19
+  },
+  {
+    "title": "Longines Master Collection",
+    "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+    "category": "men-watches",
+    "brand": "Longines",
+    "sku": "MEN-LON-LON-094",
+    "price": 1499.99,
+    "discountPrice": 1241.39,
+    "stock": 100,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
+    "tags": ["watches", "luxury watches"],
+    "rating": 3.87
+  },
+  {
+    "title": "Rolex Cellini Date Black Dial",
+    "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+    "category": "men-watches",
+    "brand": "Rolex",
+    "sku": "MEN-ROL-ROL-095",
+    "price": 8999.99,
+    "discountPrice": 8200.79,
+    "stock": 40,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
+    "tags": ["watches", "luxury watches"],
+    "rating": 4.97
+  },
+  {
+    "title": "Rolex Cellini Moonphase",
+    "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+    "category": "men-watches",
+    "brand": "Rolex",
+    "sku": "MEN-ROL-ROL-096",
+    "price": 12999.99,
+    "discountPrice": 10722.39,
+    "stock": 36,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
+    "tags": ["watches", "luxury watches"],
+    "rating": 2.58
+  },
+  {
+    "title": "Rolex Datejust",
+    "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+    "category": "men-watches",
+    "brand": "Rolex",
+    "sku": "MEN-ROL-ROL-097",
+    "price": 10999.99,
+    "discountPrice": 10589.69,
+    "stock": 86,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
+    "tags": ["watches", "luxury watches"],
+    "rating": 3.66
+  },
+  {
+    "title": "Rolex Submariner Watch",
+    "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+    "category": "men-watches",
+    "brand": "Rolex",
+    "sku": "MEN-ROL-ROL-098",
+    "price": 13999.99,
+    "discountPrice": 13292.99,
+    "stock": 55,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
+    "tags": ["watches", "luxury watches"],
+    "rating": 2.69
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Green Crystal Earring",
+    "description": "The Green Crystal Earring is a dazzling accessory that features a vibrant green crystal. With a classic design, it adds a touch of elegance to your ensemble, perfect for formal or special occasions.",
+    "category": "women-jewellery",
+    "brand": "CK",
+    "sku": "WOM-BRD-GRE-182",
+    "price": 29.99,
+    "discountPrice": 25.42,
+    "stock": 54,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/thumbnail.webp",
+    "tags": ["fashion accessories", "earrings"],
+    "rating": 3.96
+  },
+  {
+    "title": "Green Oval Earring",
+    "description": "The Green Oval Earring is a stylish and versatile accessory with a unique oval shape. Whether for casual or dressy occasions, its green hue and contemporary design make it a standout piece.",
+    "category": "women-jewellery",
+    "brand": "AK",
+    "sku": "WOM-BRD-GRE-183",
+    "price": 24.99,
+    "discountPrice": 21.20,
+    "stock": 73,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/thumbnail.webp",
+    "tags": ["fashion accessories", "earrings"],
+    "rating": 3.57
+  },
+  {
+    "title": "Tropical Earring",
+    "description": "The Tropical Earring is a fun and playful accessory inspired by tropical elements. Featuring vibrant colors and a lively design, it's perfect for adding a touch of summer to your look.",
+    "category": "women-jewellery",
+    "brand": "BK",
+    "sku": "WOM-BRD-TRO-184",
+    "price": 19.99,
+    "discountPrice": 19.84,
+    "stock": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/thumbnail.webp",
+    "tags": ["fashion accessories", "earrings"],
+    "rating": 4.4
+  }
+]

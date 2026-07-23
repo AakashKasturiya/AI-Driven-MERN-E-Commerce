@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Black Women's Gown",
+    "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
+    "category": "women-dresses",
+    "brand": "AK",
+    "sku": "WOM-BRD-BLA-177",
+    "price": 129.99,
+    "discountPrice": 116.35,
+    "stock": 25,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/thumbnail.webp",
+    "tags": ["clothing", "gowns"],
+    "rating": 3.64
+  },
+  {
+    "title": "Corset Leather With Skirt",
+    "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+    "category": "women-dresses",
+    "brand": "AK",
+    "sku": "WOM-BRD-COR-178",
+    "price": 89.99,
+    "discountPrice": 75.36,
+    "stock": 30,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/thumbnail.webp",
+    "tags": ["clothing", "corsets", "skirts"],
+    "rating": 3.05
+  },
+  {
+    "title": "Corset With Black Skirt",
+    "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+    "category": "women-dresses",
+    "brand": "AK",
+    "sku": "WOM-BRD-COR-179",
+    "price": 79.99,
+    "discountPrice": 67.95,
+    "stock": 33,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/thumbnail.webp",
+    "tags": ["clothing", "corsets", "skirts"],
+    "rating": 4.52
+  },
+  {
+    "title": "Dress Pea",
+    "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
+    "category": "women-dresses",
+    "brand": "AK",
+    "sku": "WOM-BRD-DRE-180",
+    "price": 49.99,
+    "discountPrice": 41.15,
+    "stock": 6,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/thumbnail.webp",
+    "tags": ["clothing", "dresses"],
+    "rating": 4.88
+  },
+  {
+    "title": "Marni Red & Black Suit",
+    "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
+    "category": "women-dresses",
+    "brand": "AK",
+    "sku": "WOM-BRD-MAR-181",
+    "price": 179.99,
+    "discountPrice": 145.77,
+    "stock": 62,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/thumbnail.webp",
+    "tags": ["clothing", "suits"],
+    "rating": 4.48
+  }
+]

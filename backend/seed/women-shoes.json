@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Black & Brown Slipper",
+    "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
+    "category": "women-shoes",
+    "brand": "Comfort Trends",
+    "sku": "WOM-COM-BLA-185",
+    "price": 19.99,
+    "discountPrice": 19.32,
+    "stock": 3,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/thumbnail.webp",
+    "tags": ["footwear", "slippers"],
+    "rating": 2.53
+  },
+  {
+    "title": "Calvin Klein Heel Shoes",
+    "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
+    "category": "women-shoes",
+    "brand": "Calvin Klein",
+    "sku": "WOM-CAL-CAL-186",
+    "price": 79.99,
+    "discountPrice": 77.44,
+    "stock": 93,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/thumbnail.webp",
+    "tags": ["footwear", "heel shoes"],
+    "rating": 4.92
+  },
+  {
+    "title": "Golden Shoes Woman",
+    "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
+    "category": "women-shoes",
+    "brand": "Fashion Diva",
+    "sku": "WOM-FAS-GOL-187",
+    "price": 49.99,
+    "discountPrice": 43.03,
+    "stock": 88,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/thumbnail.webp",
+    "tags": ["footwear", "women's shoes"],
+    "rating": 3.26
+  },
+  {
+    "title": "Pampi Shoes",
+    "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
+    "category": "women-shoes",
+    "brand": "Pampi",
+    "sku": "WOM-PAM-PAM-188",
+    "price": 29.99,
+    "discountPrice": 25.75,
+    "stock": 49,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/thumbnail.webp",
+    "tags": ["footwear", "casual shoes"],
+    "rating": 3.05
+  },
+  {
+    "title": "Red Shoes",
+    "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+    "category": "women-shoes",
+    "brand": "Fashion Express",
+    "sku": "WOM-FAS-SHO-189",
+    "price": 34.99,
+    "discountPrice": 28.80,
+    "stock": 7,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+    "tags": ["footwear", "women's shoes"],
+    "rating": 3.25
+  }
+]

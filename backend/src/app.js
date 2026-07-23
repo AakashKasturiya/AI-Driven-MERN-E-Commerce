@@ -4,7 +4,6 @@
 
 import express from "express";
 import cors from "cors";
-
 import helmet from "helmet";
 import morgan from "morgan";
 
@@ -13,11 +12,8 @@ import productRoutes from "./routes/product.routes.js";
 import cartRoutes from "./routes/cart.routes.js";
 import wishlistRoutes from "./routes/wishlist.routes.js";
 import orderRoutes from "./routes/order.routes.js";
-
 import userRoutes from "./routes/user.routes.js";
-
 import aiRoutes from "./routes/ai.routes.js";
-
 
 // ==========================================
 // Import Packages - END
@@ -43,23 +39,43 @@ app.use(express.json());
 // Parse URL Encoded Data
 app.use(express.urlencoded({ extended: true }));
 
+// ==========================================
+// CORS Configuration
+// ==========================================
+
 const allowedOrigins = [
   "http://localhost:5173",
   "https://ai-driven-mern-e-commerce.vercel.app",
+  "https://ai-driven-mern-e-commerce-git-main-aakash-kasturiya-s-projects.vercel.app",
 ];
 
-// Enable CORS
 app.use(
   cors({
-    origin: allowedOrigins,
+    origin: function (origin, callback) {
+      // Allow requests without an origin
+      // Example: Postman, mobile apps, server-to-server requests
+      if (!origin) {
+        return callback(null, true);
+      }
+
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      console.log("❌ CORS blocked origin:", origin);
+
+      return callback(new Error("Not allowed by CORS"));
+    },
     credentials: true,
   })
 );
 
-// Add Security Headers
+// ==========================================
+// Security & Logging
+// ==========================================
+
 app.use(helmet());
 
-// Log API Requests
 app.use(morgan("dev"));
 
 // ==========================================
@@ -82,16 +98,11 @@ app.get("/", (req, res) => {
 // ==========================================
 
 // ==========================================
-// Authentication Routes - START
+// API Routes - START
 // ==========================================
 
 app.use("/api/auth", authRoutes);
 
-// ==========================================
-// Authentication Routes - END
-// ==========================================
-
-// Product Routes
 app.use("/api/products", productRoutes);
 
 app.use("/api/cart", cartRoutes);
@@ -103,5 +114,9 @@ app.use("/api/orders", orderRoutes);
 app.use("/api/users", userRoutes);
 
 app.use("/api/ai", aiRoutes);
+
+// ==========================================
+// API Routes - END
+// ==========================================
 
 export default app;

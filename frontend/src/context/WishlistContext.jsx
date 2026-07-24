@@ -48,6 +48,11 @@ export const WishlistProvider = ({ children }) => {
         await refresh();
       } catch (err) {
         console.error(err);
+        setError(
+          err?.response?.data?.message ||
+            err?.message ||
+            "Wishlist action failed"
+        );
       }
     },
     [refresh]

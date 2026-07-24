@@ -14,7 +14,7 @@ import Wishlist from "../models/wishlist.model.js";
 
 export const toggleWishlist = async (req, res) => {
   try {
-    const userId = req.user.userId;
+    const userId = req.user._id;
     const { productId } = req.body;
 
     const existingWishlist = await Wishlist.findOne({
@@ -63,7 +63,7 @@ export const toggleWishlist = async (req, res) => {
 
 export const getWishlist = async (req, res) => {
   try {
-    const userId = req.user.userId;
+    const userId = req.user._id;
 
     const wishlist = await Wishlist.find({
       user: userId,
@@ -92,7 +92,7 @@ export const getWishlist = async (req, res) => {
 
 export const getWishlistCount = async (req, res) => {
   try {
-    const userId = req.user.userId;
+    const userId = req.user._id;
 
     const count = await Wishlist.countDocuments({
       user: userId,

@@ -32,7 +32,12 @@ export const SignIn = ({loginToggle, setLoginToggle}) => {
     setIsSubmitting(true);
 
     try {
-      const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/signup`, {
+      const baseUrl = import.meta.env.VITE_API_URL || "";
+      if (!baseUrl) {
+        console.warn("VITE_API_URL is not set — using current origin for API requests (relative '/api' path). Set VITE_API_URL to your backend URL in environment variables.");
+      }
+
+      const response = await axios.post(`${baseUrl}/api/auth/login`, {
         email: formData.email,
         password: formData.password,
       });

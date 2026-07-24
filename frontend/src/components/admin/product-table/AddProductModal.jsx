@@ -2,7 +2,8 @@ import { useState, useRef } from "react";
 import * as XLSX from "xlsx";
 import Swal from "sweetalert2";
 
-import api from "../../../api/api";
+import { http } from "../../../api/http"; // was: import api from "../../../api/api";
+
 
 export const AddProductModal = ({ mode, onClose, onAddOne, onAddMany, CATEGORY_META }) => {
   const [tab, setTab] = useState(mode);
@@ -65,7 +66,7 @@ export const AddProductModal = ({ mode, onClose, onAddOne, onAddMany, CATEGORY_M
         fd.append("images", file);
       }
 
-      const { data } = await api.post("/products/add", fd, {
+     const { data } = await http.post("/api/products/add", fd, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
@@ -122,8 +123,7 @@ export const AddProductModal = ({ mode, onClose, onAddOne, onAddMany, CATEGORY_M
         images: Array.isArray(p.images) ? p.images : [],
       }));
       setJsonError("");
-      api
-        .post("/products/add-json", normalized)
+       http.post("/api/products/add-json", normalized)
         .then(({ data }) => {
           if (!data?.success) {
             setJsonError(data?.message || "Failed to import JSON.");
@@ -213,8 +213,8 @@ export const AddProductModal = ({ mode, onClose, onAddOne, onAddMany, CATEGORY_M
         });
         if (normalized.length === 0) throw new Error("empty");
 
-        api
-          .post("/products/add-json", normalized)
+           http
+          .post("/api/products/add-json", normalized)
           .then(({ data }) => {
             if (!data?.success) {
               setExcelError(data?.message || "Failed to import Excel.");

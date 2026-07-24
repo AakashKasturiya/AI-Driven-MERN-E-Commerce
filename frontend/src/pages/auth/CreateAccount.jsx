@@ -1,7 +1,7 @@
 import { useState } from "react";
-import axios from "axios";
 import Swal from 'sweetalert2'
 import { useNavigate } from "react-router-dom";
+import { http } from "../../api/http"; // adjust path to match your actual folder structure
 
 const initialState = {
   firstName: "",
@@ -130,7 +130,7 @@ export const CreateAccount = ({loginToggle, setLoginToggle}) => {
 
 
   /** Handle Register */
-  const handleRegister = async () => {
+const handleRegister = async () => {
     if (isSubmitting) return;
     setIsSubmitting(true);
     setServerError("");
@@ -142,12 +142,7 @@ export const CreateAccount = ({loginToggle, setLoginToggle}) => {
         password: formData.password,
       };
 
-      const baseUrl = import.meta.env.VITE_API_URL || "";
-      if (!baseUrl) {
-        console.warn("VITE_API_URL is not set — using current origin for API requests (relative '/api' path). Set VITE_API_URL to your backend URL in environment variables.");
-      }
-
-      const response = await axios.post(`${baseUrl}/api/auth/signup`, payload);
+      const response = await http.post("/api/auth/signup", payload);
 
       console.log(response.data);
       const { user, token } = response.data;

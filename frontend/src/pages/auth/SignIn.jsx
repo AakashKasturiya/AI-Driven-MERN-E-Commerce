@@ -1,7 +1,7 @@
 import { useState } from "react";
-import axios from "axios";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import { http } from "../../api/http"; 
 
 
 const initialState = {
@@ -25,26 +25,20 @@ export const SignIn = ({loginToggle, setLoginToggle}) => {
     });
   };
 
-  const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (isSubmitting) return;
     setIsSubmitting(true);
 
     try {
-      const baseUrl = import.meta.env.VITE_API_URL || "";
-      if (!baseUrl) {
-        console.warn("VITE_API_URL is not set — using current origin for API requests (relative '/api' path). Set VITE_API_URL to your backend URL in environment variables.");
-      }
-
-      const response = await axios.post(`${baseUrl}/api/auth/login`, {
+      const response = await http.post("/api/auth/login", {
         email: formData.email,
         password: formData.password,
       });
 
       console.log(response.data);
-      
-      // Store user data and token in localStorage
+
       const { user, token } = response.data;
       localStorage.setItem("user", JSON.stringify(user));
       localStorage.setItem("token", token);
@@ -55,7 +49,6 @@ export const SignIn = ({loginToggle, setLoginToggle}) => {
         icon: "success",
       });
 
-      // Redirect based on user role
       if (user.role === "admin") {
         navigate("/admin/dashboard");
       } else {

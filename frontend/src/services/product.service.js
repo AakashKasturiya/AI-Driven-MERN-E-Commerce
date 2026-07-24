@@ -2,7 +2,7 @@
 // Product Service - START
 // ==========================================
 
-import { http } from "./http"; // use the shared, correctly-configured instance — adjust path to match your folder structure
+import { http } from "../api/http"; // use the shared, correctly-configured instance — adjust path to match your folder structure
 
 export const addProduct = (formData) => {
   return http.post("/api/products/add", formData, {
